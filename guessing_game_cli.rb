@@ -16,5 +16,5 @@ def run_guessing_game
 end
 
 def ask 
-  puts "Guess a number between 1 and 6!"
+  prints "Guess a number between 1 and 6!"
 end
