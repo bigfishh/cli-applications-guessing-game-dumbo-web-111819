@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game
-  ran_num = rand(6) + 1
+  ran_num = rand(6)+1
   ask
   user_input = gets.chomp
   if user_input == ran_num
