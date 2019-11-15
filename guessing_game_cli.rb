@@ -1,13 +1,14 @@
 # Code your solution here!
 def run_guessing_game
   ran_num = rand(1..6)
+  ask
   user_input = gets.chomp
   if user_input == ran_num
     print "You guessed the correct number!"
   elsif user_input == "exit"
     print "Goodbye!"
   else 
-    print "Goodbye!"
+    print "Sorry! The computer guessed #{ran_num}."
   end
     
 end
