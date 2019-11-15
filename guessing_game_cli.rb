@@ -4,13 +4,13 @@ def run_guessing_game
   ask
   user_input = gets.chomp
   if user_input == ran_num
-    print "You guessed the correct number!"
+    answer = "You guessed the correct number!"
   elsif user_input == "exit"
-    print "Goodbye!"
+    answer = "Goodbye!"
   else 
-    print "Sorry! The computer guessed #{ran_num}."
+    answer = "Sorry! The computer guessed #{ran_num}."
   end
-    
+  print answer  
 end
 
 def ask 
